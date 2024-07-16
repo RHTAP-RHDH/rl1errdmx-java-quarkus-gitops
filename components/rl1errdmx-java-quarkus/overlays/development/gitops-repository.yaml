@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: rl1errdmx-java-quarkus-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/rl1errdmx-java-quarkus-gitops

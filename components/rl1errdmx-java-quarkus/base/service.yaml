@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: rl1errdmx-java-quarkus
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rl1errdmx-java-quarkus 
+  name: rl1errdmx-java-quarkus
+spec:
+  ports:
+  - port: 8081 
+    targetPort: 8081 
+  selector:
+    app.kubernetes.io/instance: rl1errdmx-java-quarkus 
